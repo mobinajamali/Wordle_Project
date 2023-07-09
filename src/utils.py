@@ -9,6 +9,3 @@ def print_warning(text, end='\n'):
 
 def print_error(text, end='\n'):
     print(colored(text, 'red', attrs=['reverse']), end=end)
-
-def print_grey(text, end='\n'):
-    print(colored(text, 'grey', attrs=['reverse']), end=end)

@@ -1,7 +1,7 @@
 import random
 from src.utils import print_error, print_success, print_warning
 
-random.seed(42)
+#random.seed(42)
 
 class Wordle:
     def __init__(self, file_path: str, word_len: int = 5, limit: int = 10000):
